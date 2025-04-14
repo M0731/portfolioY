@@ -1,0 +1,126 @@
+header {
+    background: #333;
+    padding: 10px 0;
+    text-align: center;
+  }
+  main{background-color:antiquewhite;
+  }
+  
+  .h11 {
+    position: absolute;
+    top: 0;
+    left: 1cm;
+    color: white;
+    font-weight: bold;
+    margin: 10px 20px;
+  }
+  
+  nav {
+    background: #333;
+    padding: 8px 0;     
+  }
+  
+  nav ul {
+    text-align: right; 
+  }
+  
+  
+  nav ul li {
+    display: inline-block; 
+    margin: 0 20px;       
+  }
+  /* Link styling inside nav */
+  nav ul li a {
+    text-decoration: none;
+    color: white;        
+      font-weight: bold;       
+    padding: 5px 10px;      
+  }
+  
+  
+  nav ul li a:hover {
+    background: #007BFF;   
+    border-radius: 5px;     
+  }
+  
+
+body1 {
+    margin: 0;
+    font-family: sans-serif;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .project-list {
+    display: grid;
+    gap: 1rem;
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .project {
+    background: #1e1e1e;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+    transition: transform 0.3s ease;
+    animation: fadeIn 0.5s ease;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .project:hover {
+    transform: translateY(-5px);
+  }
+
+  .project img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+  }
+
+  .project-details {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project h2 {
+    margin: 0 0 0.5rem;
+    font-size: 1.25rem;
+    color: #00c9a7;
+  }
+
+  .project p {
+    margin: 0;
+    color: #ccc;
+  }
+
+
+
+  .footer-mini {
+    background: #121212;
+    color: rgba(255,255,255,0.7);
+    padding: 1.5rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+    border-top: 1px solid rgba(255,255,255,0.08);
+  }
+  .footer-mini .container3 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    text-align: center;
+    
+  }
